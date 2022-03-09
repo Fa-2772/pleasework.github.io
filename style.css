@@ -1,0 +1,333 @@
+body {
+    height: 500vh;
+    margin: 0;
+}
+
+
+.one{
+    background-image: url('Poem.jpg');
+    padding: 600px;
+    margin: -100px;
+    background-attachment: fixed;
+  background-position: auto;
+
+
+  
+
+}
+
+
+
+.beg {
+
+    position: sticky;
+    display:grid;
+    place-content: top;
+    font-family: 'Garamond';
+    font-size: 4em;
+    justify-content: center;
+    
+}
+
+
+.two{
+    font-family: 'Garamond';
+    justify-content: right;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 900;
+    position:relative; left: 0px;; top: 9000px; bottom: 0;
+    overflow: hidden;
+    display: inline-block;
+background: transparent;
+}
+
+
+
+.three{
+    font-family: 'Garamond';
+    justify-content: center;
+    text-align: left;
+    font-size: 9rem;
+    font-weight: 500;
+    position:relative; left:0; top: 8000px; bottom: 0;
+    overflow: hidden;
+    display: inline-block;
+background: transparent;
+}
+
+.four{
+    font-family: 'Garamond';
+    justify-content: center;
+    text-align: right;
+    font-size: 9rem;
+    font-weight: 500;
+    position:relative; left:0; top: 11000px; bottom: 0;
+    overflow: hidden;
+    display: inline-block;
+background: transparent;
+}
+
+.five{
+    font-family: 'Garamond';
+    justify-content: center;
+    text-align: center;
+    color: rgba(206, 189, 189, 0.788);
+    font-size: 9rem;
+    font-weight: 500;
+    position:relative; left:0; top: 17000px; bottom: 0;
+    overflow: hidden;
+    display: inline-block;
+background: transparent;
+
+}
+
+
+.line-container {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow:hidden;
+    
+    
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+    
+}
+
+p{
+    position: absolute;
+    z-index: -1;
+    color:rgb(236, 228, 228);
+    top: 10%
+    left;
+    white-space: nonwrap;
+    font-size: 20rem;
+
+}
+
+/* for the eyeballs!*/
+
+
+body{
+    background-color:transparent;
+  }
+  
+  .box{
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 10%;
+    width: 311px;
+    height: 141px;
+    background: transparent;
+    z-index: 20;
+  }
+  .eye{
+    position: relative;
+    display: inline-block;
+    width: 141px;
+    height: 141px;
+    background: none;
+    margin-right: 4%;
+  }
+  
+    .eye .up{
+      position: absolute;
+      width: 100%;
+      height: 8%;
+      background: #000;
+      opacity: 1;
+      z-index: 20;
+    }
+  
+    .eye .down{
+      position: absolute;
+      top: 92%;
+      width: 100%;
+      height: 8%;
+      background: #000;
+      opacity: 1;
+      z-index: 20;
+    }
+  
+    .eye .left{
+      position: absolute;
+      width: 8%;
+      height: 100%;
+      background: #000;
+      opacity: 1;
+      z-index: 20;
+    }
+  
+    .eye .right{
+      position: absolute;
+      left: 94%;
+      width: 8%;
+      height: 100%;
+      background: #000;
+      opacity: 1;
+      z-index: 20;
+    }
+  
+    .eye .eye-around {
+      position: absolute;
+      top: 28%;
+      left: 18%;
+      width: 45%;
+      height: 45%;
+      border: solid 15px #000;
+      border-radius:  80% 10%;
+      transform: rotate(45deg);
+      z-index: 200;
+    }
+  
+    .eye .eye-box{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #FFF;
+      clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    }
+  
+    .eye .rec{
+      position: absolute;
+          width: 100%;
+          height: 100%;
+      background: #FFF;
+      clip-path: polygon(0 62%, 100% 62%, 100% 100%, 0% 100%);
+    }
+  
+    .eye .rec2{
+      position: absolute;
+          width: 100%;
+          height: 100%;
+      background: #FFF;
+      clip-path: polygon(0 0, 100% 0%, 100% 62%, 0 62%);
+    }
+  
+    .eye .brow{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      clip-path: ellipse(49% 27% at 50% 41%);
+      opacity: 1;
+      background: #000;
+      z-index: 1;
+    }
+  
+    .eye .inner-brow{
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      clip-path: ellipse(50% 33% at 50% 57%);
+      background: #FFF;
+      opacity: 1;
+      z-index: 1;
+    }
+  
+    .eye .upper-eye{
+      position: absolute;
+      width: 200%;
+      height: 250%;
+      left: -50%;
+      top: 15%;
+      background: #000;
+      border-radius: 50%;
+      z-index: 1;
+    }
+  
+    .eye .inner-upper-eye{
+      position: absolute;
+          width: 100%;
+          height: 100%;
+      background: #000;
+      clip-path: ellipse(48% 46% at 50% 84%);
+      z-index: 1;
+      opacity: 0;
+    }
+  
+    .eye .inner-upper-eye2{
+      position: absolute;
+          width: 100%;
+          height: 100%;
+      background: #FFF;
+      clip-path: ellipse(37% 37% at 50% 84%);
+      z-index: 1;
+    }
+  
+    .eyeball{
+      position: absolute;
+      width: 28.5%;
+      height: 28.5%;
+      top: 47%;
+      left: 36.5%;
+      border-radius: 100%;
+      background: #000;
+      opacity: 1;
+      z-index: 20;
+    }
+  
+    .eyeball {
+      position: absolute;
+      width: 28.5%;
+      height: 28.5%;
+      top: 47%;
+      left: 36.5%;
+      border-radius: 100%;
+      background: #000;
+      opacity: 0;
+      z-index: 20;
+      animation: blinker 1.7s cubic-bezier(0,1.91,.23,1.33) infinite alternate;
+    }
+  
+    @keyframes blinker { to { opacity: 1; } }
+  
+    .eye .lower-eye{
+      position: absolute;
+      width: 200%;
+      height: 250%;
+      left: -50%;
+      top: -200%;
+      background: #000;
+      border-radius: 50%;
+    }
+  
+    .eye .inner-lower-eye{
+      position: absolute;
+          width: 100%;
+          height: 100%;
+      background: #000;
+      clip-path: ellipse(47% 41% at 51% 45%);
+    }
+  
+  
+  
+    .eye .inner-lower-eye2{
+      position: absolute;
+          width: 100%;
+          height: 100%;
+      background: #FFF;
+      clip-path: ellipse(35% 31% at 51% 45%);
+      opacity: 1;
+    }
+  
+  @media all and (max-width: 600px) {
+    .box{
+      position: relative;
+      margin: auto;
+      display: block;
+      margin-top: 2%;
+      width: 400px;
+      height: 280px;
+      background: none;
+    }
+  }
+  
+  

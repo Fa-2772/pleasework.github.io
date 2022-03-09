@@ -1,0 +1,27 @@
+body{
+
+
+    position: sticky;
+    display:grid;
+    place-content: top;
+    font-family: 'Garamond';
+    font-size: 4em;
+    justify-content: center;
+}
+
+
+
+
+
+
+.one{
+    background-image: url(../Img/Poem.jpg);
+    padding: 600px;
+    margin: 100px;
+    background-attachment: fixed;
+  background-position: auto;
+  
+
+  
+
+}
